@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calender</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="calender">
+    <h3></h3>
+    <table id="calender-table">
+        <thead>
+        <tr>
+            <td>Sun</td>
+            <td>Mon</td>
+            <td>Tus</td>
+            <td>Wed</td>
+            <td>Thu</td>
+            <td>Fri</td>
+            <td>Sat</td>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+<button id="prev" onclick="prevClicked()">Prev</button>
+<button id="next" onclick="nextClicked()">Next</button>
+<script src="calender.js"></script>
+</body>
+</html>
