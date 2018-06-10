@@ -122,7 +122,7 @@ function getPreviousMonth(){
 function backToToday(){
 	currentMonth = initMonth;
 	currentYear = initYear;
-	updateCalender(startOfWeek);
+	updateCalender();
 }
 
 function renderWeekDaysHeadings(){
